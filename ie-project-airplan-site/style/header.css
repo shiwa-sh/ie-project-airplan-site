@@ -1,0 +1,104 @@
+
+header{
+    background-color: #f1f1f1;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 7vh;
+    opacity: 0.6;
+    
+}
+
+.menu-icon{
+    padding: 3%;
+
+}
+.menu-icon i{
+    padding-top: 3%;
+    cursor: pointer;
+}
+.nav-item{
+    display: inline-block;
+    padding: 3px;
+    padding-left: 5%;
+}
+.nav-item a{
+    padding-bottom: 3px;
+}
+.nav-item a:hover{
+    border-bottom: 1px solid black;
+    
+}
+#logobox img{
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    height: 40px;
+    width: 60px;
+}
+.nav-item:first-child{
+    padding-top: 15px;
+}
+.nav-item:last-child{
+    padding-bottom: 10px;
+}
+
+
+.footer-container{
+    background-color: #f1f1f1;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 7vh;
+    opacity: 0.6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.footer-container a{
+    padding: 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-item{
+    display: inline-block;
+    padding: 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+
+
+/* @media screen and (min-width:700px) {
+    
+}
+
+@media screen and (min-width:1100px) {
+   
+    .nav-item{
+        display: inline-block;
+    }
+    .menu-icon{
+        display: none;
+    }
+}
+
+@media screen and (min-width:310px) {
+    .nav-container{
+        width: 100%;
+        height: 12vh;
+    }
+    .nav-item-list{
+        height: 0px;
+        
+    }  
+} */
